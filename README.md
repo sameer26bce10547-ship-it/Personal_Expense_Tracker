@@ -155,8 +155,8 @@ git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
 git push -u origin main
 ```
 
-Submit only the repository root URL, for example:
+AUTHOR:-
 
-`https://github.com/YOUR_USERNAME/YOUR_REPO`
-
-Do not submit `/tree/main/` or `/blob/main/` URLs.
+Name:- Sameer Pratap Singh
+Registration No. :- 26BCE10547
+ 
