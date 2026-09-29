@@ -1,30 +1,30 @@
-# Project Statement
+# Project Description
 
-## Problem Statement
+## Problem
 
-People often record small daily expenses informally and find it difficult to review where their money is being spent. A lightweight command-line application can provide a simple way to record, maintain, and summarize expenses without requiring a database server.
+It is common for people to track their expenses in an informal way and find it hard to trace their spending on a daily basis. A light-weight command-line application will be an effective solution to record, manage, and analyze the expenses without using a database server.
 
 ## Scope
 
-The project supports local expense record management. It covers adding, viewing, updating, and deleting expenses, validating user input, storing records in JSON, and producing basic category and monthly summaries.
+The project implements local expense tracking functionality. It includes such features as recording, displaying, modifying, and removing expenses, validation of user input, saving data in JSON, generating basic summary reports by categories and month.
 
-The project intentionally does not include online banking integration, authentication, cloud synchronization, payment processing, or financial advice.
+The project deliberately excludes online banking, authentication, cloud storage, payment system, and financial counseling features.
 
-## Target Users
+## Potential Users
 
-- Students
-- Individuals who want a simple personal expense log
-- Beginners learning Python CRUD and file handling
+- Students;
+- People who wish to have a simple personal expense tracker;
+- Beginners who learn Python CRUD operations and file I/O.
 
-## High-Level Features
+## Features
 
-- Expense CRUD operations
-- JSON persistence
-- Input validation
-- Category and monthly reports
-- Command-line interface
-- Automated unit tests
+- Expense CRUD operations;
+- JSON storage;
+- Input validation;
+- Category and month summaries;
+- Command-line interface;
+- Automated unit tests.
 
-## Expected Outcome
+## Expected Result
 
-The application provides a small, understandable, terminal-based system that demonstrates modular Python programming and a complete development workflow from requirements through implementation and testing.
+The application represents a small-scale but understandable terminal program that illustrates modular design and Python programming, as well as a complete software development process from requirements to testing.

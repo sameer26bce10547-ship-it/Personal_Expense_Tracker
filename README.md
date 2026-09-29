@@ -1,65 +1,65 @@
-# Personal Expense Tracker
+## PERSONAL EXPENSE TRACKER
 
-## 1. Project Overview
+## 1.PROJECT SUMMARY
 
-Personal Expense Tracker is a simple command-line Python application for recording and analyzing daily expenses. It uses a JSON file for local storage, so it does not require a database server or third-party Python packages.
+This application responsible to keep tracks of personal monetary expense of daily basis of an user. It uses a JSON file for local storage, so it does not require database server.
 
-The project demonstrates modular Python programming, CRUD operations, input validation, persistent storage, reporting, and automated testing.
+This project illustrates modular Python programming, management of CRUD operations, and more.
 
-## 2. Main Features
+## 2. MAIN FEATURES
 
-1. Add an expense
-2. List saved expenses
-3. Update an expense
-4. Delete an expense
-5. Generate spending reports by category and month
-6. Validate dates, amounts, categories, and IDs
-7. Persist data locally in JSON
-8. Run automated unit tests
+1. Include a payment.
+2. Write down the expenses you already saved.
+3. Revise an expense.
+4. Erase an expenditure.
+5. Create reports by type and by month.
+6. Check dates, amounts, categories and ids. 
+7. Save data locally in JSON.
+8. Execute repeated unit tests automatically.
 
-## 3. Functional Modules
+## 3.FUNCTIONAL MODULES
 
-- **Expense Management:** Create, read, update, and delete expense records.
-- **Data Validation & Storage:** Validate input and safely save/load JSON data.
-- **Reporting:** Calculate total spending and summaries by category/month.
+Expense Management: Perform CRUD operations on expense records
+Ensure entered data is valid and save/load that data in JSON file properly.
+You could say: Summary of spending According to Category/month.
 
-## 4. Technology
+## 4.TECHNOLOGY
 
-- Python 3.9+
-- Standard library only
-- JSON for local persistence
-- `unittest` for testing
+- Python 3.9 and newer.
+- Only Standard Library.
+- A JSON file for local storage.
 
-No external packages are required.
+-   
+Testing with Unittest
 
-## 5. Project Structure
+External packages are not needed.
 
-```text
-expense-tracker/
-├── main.py
-├── requirements.txt
-├── README.md
-├── statement.md
-├── .gitignore
-├── data/
-│   └── expenses.json
-├── expense_tracker/
-│   ├── __init__.py
-│   ├── cli.py
-│   ├── expense_manager.py
-│   ├── models.py
-│   ├── reports.py
-│   ├── storage.py
-│   └── validators.py
-├── tests/
-│   └── test_expense_tracker.py
-└── docs/
-    ├── architecture.md
-    ├── workflow.md
-    ├── uml.md
-    └── test_cases.md
-```
+## 5. PROJECT STRUCTURE
 
+expense-tracker/.
+Main file
+requirements file
+Readme document
+statement markdown
+.gitignore file
+data folder
+it’s JSON file.
+└── expense_tracker/
+init.py file
+CLI File
+expense manager Python
+models.py file
+reports python file
+File storage.py
+     └── validators.py
+Tests Folder
+test_expense_tracker.py.
+documents folder
+architecture document
+workflow  Markdown file
+uml markdown
+test file
+```.
 ## 6. Environment Setup
 
 ### Windows
@@ -76,11 +76,11 @@ python --version
 python3 --version
 ```
 
-## 7. Installation
+## 7.Installation
 
-Clone/download this repository and open a terminal in the repository root.
+Clone or download this repository and open a terminal in the repository root.
 
-There are no third-party dependencies. The `requirements.txt` file is intentionally empty.
+There is no third-party dependencies. The requirements.txt file is intentionally empty.
 
 Optional virtual environment:
 
@@ -100,7 +100,7 @@ Linux/macOS:
 source .venv/bin/activate
 ```
 
-## 8. Run the Project
+## 8.Run the Project
 
 From the repository root:
 
@@ -108,9 +108,9 @@ From the repository root:
 python main.py
 ```
 
-The program creates `data/expenses.json` automatically when the first expense is saved.
+The program  automatically creates `data/expenses.json`  when the first expense is saved.
 
-## 9. Testing
+## 9.Testing
 
 Run:
 
@@ -118,9 +118,9 @@ Run:
 python -m unittest discover -s tests -v
 ```
 
-Expected result: all tests should pass.
+Expected result:all tests should pass.
 
-## 10. Example Workflow
+## 10.Example Workflow
 
 1. Select `1` to add an expense.
 2. Enter a date such as `2026-09-28`.
@@ -128,23 +128,23 @@ Expected result: all tests should pass.
 4. Enter an amount such as `250`.
 5. Select `2` to list records.
 6. Select `5` to view category/month reports.
-7. Select `3` or `4` to update/delete records.
+7. Select `3`or `4`to update/delete records.
 
-## 11. Error Handling
+## 11.Error Handling
 
 Invalid dates, empty categories, invalid amounts, invalid IDs, malformed stored JSON, and missing records are handled with user-readable error messages.
 
-## 12. Design Documentation
+## 12.Design Documentation
 
-See the `docs/` directory for the architecture, workflow, UML diagrams, and test cases.
+See the `docs/` directory for the architecture,workflow, UML diagrams, and test cases.
 
-## 13. Project Report
+## 13.Project Report
 
-A report suitable for the VITyarthi project requirements is included as `Project_Report.pdf`.
+A suitable report for the VITyarthi project requirements is included as `Project_Report.pdf`.
 
-## 14. Version Control
+## 14.Version Control
 
-For submission, initialize Git, commit the project, create a **public** GitHub repository, and push the project.
+For submission,initialize Git, commit the project, create a **public** GitHub repository, and push the project.
 
 ```bash
 git init
